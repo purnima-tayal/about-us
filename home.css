@@ -1,0 +1,296 @@
+/* include same.css */ 
+
+#footer-banner{
+    display: table;
+    position: relative;
+    height: 400px;
+    width: 100%;
+  }
+  #footer-banner .container{
+    display: table-cell;
+    vertical-align: middle;
+  }
+  #feature-values{
+  /*   margin-bottom: 80px; */
+    padding-bottom: 5rem;
+  }
+  /* #pricing-section{
+    margin-top: 50px;
+  } */
+  .apply-for-invite{
+    margin-top: 30px;
+  }
+  #btn{
+    transition: all 0.5s ease-in-out;
+  }
+  #btn:hover{
+    transform: scale(1.1);
+     -webkit-transform: scale(1.1);
+     box-shadow: 10px 15px 7px rgba(16, 52, 254, 0.2);
+  }
+  .nexastack-core-values-container {
+      max-width: 1000px;
+      margin: 0 auto;
+  }
+  .banner-section.home-banner {
+      padding: 150px 0 20px;
+      background: #fff;
+  }
+  .home-banner-content {
+      text-align: center;
+  }
+  .home-banner-heading {
+    position: relative;
+  /*   animation: heading;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards; */
+  }
+  /* @keyframes heading{
+    0% {top: -60px;}
+    100% {top: 0px;}
+  } */
+  .home-banner-desc {
+    position: relative;
+  /*   animation: desc;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards; */
+      max-width: 650px;
+      margin: 0 auto 30px;
+  }
+  /* @keyframes desc{
+    0% {left: -1000px; }
+    100% {left: 0px;}
+  } */
+  .home-banner-image video{
+      margin-top: -80px;
+      max-width: 100%;
+  }
+  /* core values */
+  .nexastack-core-value-section {
+      margin-top: -170px;
+  }
+  .nexastcak-core-value-item {
+      padding: 30px;
+      display: grid;
+      height: 100%;
+      text-align: center;
+      background-color: #fff;
+      align-content: space-between;
+      box-shadow: 1px 3px 8px 1px rgb(208, 223, 247);
+      transition: .4s ease all;
+  }
+  .nexastcak-core-value-item:hover {
+      transform: translateY(-5px);
+      transition: .4s ease all;
+      box-shadow: 0 5px 30px 0 rgb(208, 223, 247);
+  }
+  /* end */
+  /* Feature section css */
+  .feature-value-image {
+      text-align: center;
+  }
+  .feature-value-image img {
+      width: 350px;
+  }
+  .accordion-item{
+       transition: 500ms ease-out;
+      margin-bottom: 25px ;
+  }
+  .feature-accordion-box {
+      display: grid;
+      height: 100%;
+      align-items: center;
+  }
+  .accordion-title{
+      position: relative;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      cursor: pointer;
+  }
+  .down-arrow{
+      font-size: 28px;
+      color: #a2a2a2;
+    transition: 1s ease;
+  }
+  .accordion-title h3{
+      font-size: 26px;
+      font-family: "sf_pro_displaysemibold";
+      letter-spacing: 0px;
+      color: #000000;
+      opacity: 1;
+      margin: 0;
+      margin-right: 20px;
+  }
+  .accordion-title:hover h3{
+      color: #1034fe;
+  }
+  .accordion-title:hover svg path{
+      fill: #1034fe;
+  }
+  .accordion-panel p{
+      font-size: 22px;
+  }
+  .accordion-item .accordion-panel {
+      overflow: hidden;
+      height: 0;
+      transition: 500ms ease-out;
+  }
+  .accordion-item .down-arrow{
+      transform: rotate(90deg);
+      transition: 500ms ease-out;
+    }
+  .accordion-item.accordion-expanded > .accordion-panel{
+      height: 60px;
+      transition: 500ms ease-out;
+  }
+  .accordion-item.accordion-expanded .down-arrow{
+    transform: rotate(270deg);
+    transition: 500ms ease-out;
+  }
+  .accordion-item.accordion-expanded .accordion-title h3{
+      color: #1034fe;
+  }
+  .accordion-item.accordion-expanded .accordion-title svg path{
+      fill: #1034fe;
+  }
+  /* wht nexastack section */
+  .why-nexastack-wrapper {
+      text-align: center;
+      display: grid;
+      height: 100%;
+      align-items: center;
+  }
+  .nexastack-value-image img {
+    width: 450px;
+  }
+  /* pricing css */
+  .pricing-item-box {
+      background-color: #fff;
+      border-right: 1px solid #ddd;
+      padding: 20px 20px 40px;
+      text-align: center;
+      display: grid;
+      height: 100%;
+      align-content: space-between;
+  }
+  .pricing-item-box.no-border{
+      border: 0;
+  }
+  .pricing-item-box figure {
+      margin: 0 0 2rem;
+  }
+  .pricing-item-box img {
+      width: 10rem;
+  }
+  .pricing-heading {
+      font-size: 23px;
+      line-height: 28px;
+      margin: 0 0 10px;
+  }
+  .pricing-item-box:hover {
+      background-color: #EAEFF7;
+  }
+  /* end  */
+  /* supported-framework  css */
+  .supported-framework-row {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 3rem 0 5rem;
+  }
+  .supported-framework-item {
+      margin: 0 2rem;
+      min-width: 150px;
+  }
+  .supported-framework-item-box {
+      text-align: center;
+      cursor: pointer;
+      transition: .4s ease all;
+  }
+  .supported-framework-item-box figure {
+      margin: 0 ;
+  }
+  .supported-framework-item-box img {
+      width: 12rem;
+      padding: 2rem;
+     /* filter: grayscale(1); */
+      transition: .4s ease all;
+  }
+  .supported-framework-item-box:hover {
+      transform: translateY(-5px);
+      transition: .4s ease all;
+  }
+  .supported-framework-item-box:hover img {
+      transform: scale(1.05);
+      /*filter: grayscale(0); */
+      transition: .4s ease all;
+  }
+  .framework-heading {
+      font-size: 23px;
+      line-height: 30px;
+      font-family: "sf_pro_displaylight";
+  }
+  .supported-framework-item-box:hover .framework-heading {
+      color: #1034fe;
+  }
+  @media screen and (max-width:1024px) {
+      .home-banner {
+          padding: 100px 0 20px;
+      }
+      .home-banner-image video{
+          margin-top: 0px;
+      }
+      .nexastack-core-value-section {
+          margin-top: -130px;
+      }
+      .nexastcak-core-value-item {
+          padding: 20px;
+      }
+      .accordion-title h3 {
+          font-size: 22px;
+      }
+      .accordion-panel p {
+          font-size: 18px;
+      }
+    .home-feature-section .feature-value-image {
+        display:none;
+         }
+    .banner-section.home-banner {
+      padding: 100px 0 20px;
+  }
+    .nexastack-value-image {
+    text-align: center;
+  }
+  }
+  @media screen and (max-width:640px) {
+      .nexastack-core-value-section {
+          margin-top: 0px;
+      }
+      .nexastcak-core-value-item {
+          padding: 20px 10px;
+      }
+      .accordion-title h3 {
+          font-size: 20px;
+      }
+      .accordion-panel p {
+          font-size: 18px;
+      }
+      .home-feature-section img{ 
+          display: none;
+      }
+      .pricing-item-box {
+          padding: 10px 10px 20px;
+      }
+      .supported-framework-row {
+          margin: 0;
+      }
+      .supported-framework-item-box img {
+          padding: 1rem;
+          width: 9rem;
+      }
+  }
+  
+  

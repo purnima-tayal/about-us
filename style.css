@@ -1,0 +1,19 @@
+body {
+    font-family: "sf_pro_displaylight";
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #334960;
+    background-color: #fff;
+    margin: 0;
+    overflow-x: hidden;
+    height: 100%;
+    padding: 0;
+}
+
+.banner-section{
+	padding: 80px 0 30px;
+    position: relative;
+    /*background-color: #1034FE;*/
+    height: 600px;
+    background: transparent linear-gradient(180deg,#1034FE 0%,#081a7f 100%) 0% 0% no-repeat padding-box;
+}
